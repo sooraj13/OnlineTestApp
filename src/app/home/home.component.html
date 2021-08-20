@@ -1,0 +1,22 @@
+<html>
+    <body  >
+
+      <h1><span style="color:  lightcoral;" >Online Test App</span></h1>
+      <div *ngIf="divFlag==false">
+        <br/>
+        <br/>
+        <button class="btn button" routerLink="/quiz">Start Quiz</button>
+      </div>
+      <div *ngIf="divFlag==true">
+        <br/>
+        <br/>
+        <button class="btn button" >Review Results</button>
+      </div>
+      <div>
+        <router-outlet></router-outlet>
+      </div> 
+
+     
+    </body>
+  </html>
+  

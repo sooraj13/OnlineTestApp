@@ -1,0 +1,7 @@
+[
+    {"id" : 1, "question" : "What is the capital city of India" , "answer" : "Delhi"},
+    {"id" : 2, "question" : "Which animal is the national animal of India" , "answer" : "Tiger"},
+    {"id" : 3, "question" : "Which is the smallest state in India?" , "answer" : "Goa"},
+    {"id" : 4, "question" : "How many union territories are there in India" , "answer" : "7"}
+
+]

@@ -1,0 +1,84 @@
+
+<div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
+            <div class="col-lg-8 grid-margin stretch-card">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title"><b>RESULT</b></h4>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Question</th>
+                                        <th>Correct Answer</th>
+                                        <th>Your Answer</th>
+                                    
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+
+                                    <tr>
+                                        <td>
+                                   
+                                    
+                                                <div *ngFor="let ques of questAnsFromService">
+                                                    <div class="container mt-sm-5 my-1">
+                                                        <div class="question ml-sm-5 pl-sm-5 pt-2">
+                                                            <div class="py-2 h5" ><b>{{ ques.question }} ?</b>
+                                                            </div>      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       
+                                        </td>
+                                        <td>
+                                            
+                                    
+                                            <div *ngFor="let ans of questAnsFromService">
+                                                <div class="container mt-sm-5 my-1">
+                                                    <div class="question ml-sm-5 pl-sm-5 pt-2">
+                                                        <div class="py-2 h5" ><b>{{ ans.answer }} </b>
+                                                        </div>      
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                        </td>
+                                        <td>
+                                            
+                                    
+                                            <div *ngFor="let ans of questAnsFromService">
+                                                <div class="container mt-sm-5 my-1">
+                                                    <div class="question ml-sm-5 pl-sm-5 pt-2">
+                                                        <div class="py-2 h5" ><b>{{ ans.userAns }} </b>
+                                                        </div>      
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                        </td>
+                                     
+                                    </tr>
+                                    
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+    
+
+
+
+
